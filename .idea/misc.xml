@@ -13,7 +13,10 @@
         <entry key="app/src/main/res/drawable/my_plan_selector.xml" value="0.12314814814814815" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.20244565217391305" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.20244565217391305" />
-        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.20244565217391305" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.24603836530442036" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.3118625762864439" />
+        <entry key="app/src/main/res/layout/fragment_portfolio.xml" value="0.22735507246376813" />
+        <entry key="app/src/main/res/layout/fragment_vaccination_record.xml" value="0.22735507246376813" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.3098958333333333" />
       </map>
     </option>
