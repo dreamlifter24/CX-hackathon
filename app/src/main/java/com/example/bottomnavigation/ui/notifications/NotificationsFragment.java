@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,6 +20,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+import androidx.fragment.app.Fragment;
+import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.bottomnavigation.R;
 import com.example.bottomnavigation.databinding.FragmentNotificationsBinding;
@@ -54,6 +55,9 @@ public class NotificationsFragment extends Fragment {
             public void onClick(View v){
                 if(binding.editText1.getText().toString().equals("admin") && binding.editText2.getText().toString().equals("admin")){
                     Toast.makeText(getActivity(), "Logging in..", Toast.LENGTH_SHORT).show();
+                    NavHostFragment.findNavController(NotificationsFragment.this).navigate(R.id.action_to_port);
+
+
                     //correcct password
                 }else{
                     Toast.makeText(getActivity(), "Failed", Toast.LENGTH_SHORT).show();

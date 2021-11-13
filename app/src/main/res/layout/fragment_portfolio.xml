@@ -30,7 +30,7 @@
             app:srcCompat="@drawable/syringe" />
 
         <Button
-            android:id="@+id/vaccination_button"
+            android:id="@+id/vaccinationbutton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
