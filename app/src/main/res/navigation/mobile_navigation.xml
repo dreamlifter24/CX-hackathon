@@ -16,10 +16,33 @@
         android:name="com.example.bottomnavigation.ui.dashboard.DashboardFragment"
         android:label="@string/title_myplan"
         tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/vaccination_page"
+        android:name="com.example.bottomnavigation.ui.vaccination.VaccinationFragment"
+        android:label="Vax Record"
+        tools:layout="@layout/fragment_vaccination_record"/>
+
+    <fragment
+        android:id="@+id/portfolio"
+        android:name="com.example.bottomnavigation.ui.portfolio.PortfolioFragment"
+        android:label="Portfolio"
+        tools:layout="@layout/fragment_portfolio" >
+        <action
+            android:id="@+id/to_vaccination_record"
+            app:destination="@id/vaccination_page" />
+    </fragment>
+
 
     <fragment
         android:id="@+id/navigation_login"
         android:name="com.example.bottomnavigation.ui.notifications.NotificationsFragment"
         android:label="@string/title_login"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_notifications">
+
+            <action
+                android:id="@+id/action_to_port"
+                app:destination="@id/portfolio"
+        />
+    </fragment>
+
 </navigation>
