@@ -15,8 +15,8 @@ import androidx.navigation.fragment.NavHostFragment;
 import com.example.bottomnavigation.R;
 import com.example.bottomnavigation.databinding.FragmentPortfolioBinding;
 
-
 public class PortfolioFragment extends Fragment {
+
     private PortfolioViewModel portfolioViewModel;
     private FragmentPortfolioBinding binding;
 
