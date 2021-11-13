@@ -39,7 +39,7 @@
             android:background="@drawable/round_corner"/>
 
         <ImageView
-            android:id="@+id/plan_icon"
+            android:id="@+id/planicon"
             android:layout_width="302dp"
             android:layout_height="67dp"
             android:layout_marginTop="10dp"
@@ -47,7 +47,7 @@
             app:srcCompat="@drawable/plan" />
 
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/myplanbutton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"

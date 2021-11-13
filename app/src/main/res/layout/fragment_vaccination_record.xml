@@ -6,14 +6,6 @@
     android:layout_height="match_parent">
 
 
-    <ImageView
-        android:id="@+id/vaccination_record"
-        android:layout_width="323dp"
-        android:layout_height="535dp"
-        app:srcCompat="@drawable/image"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="98dp" />
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -24,5 +16,13 @@
         android:textColor="@color/cathay_green"
         tools:layout_editor_absoluteX="77dp"
         tools:layout_editor_absoluteY="46dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/image"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="109dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
