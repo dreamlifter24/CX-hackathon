@@ -1,63 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
+        android:layout_height="500dp"
+        android:padding="5dp"
         tools:context=".MainActivity"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        tools:layout_editor_absoluteY="1dp">
 
-        <ImageView
-            android:id="@+id/portfolio_icon"
-            android:layout_width="180dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="120dp"
-            android:layout_marginTop="50dp"
-            app:srcCompat="@drawable/login_off" />
-
-        <ImageView
-            android:id="@+id/vaccination_icon"
-            android:layout_width="180dp"
-            android:layout_height="123dp"
-            android:layout_marginStart="120dp"
-            android:layout_marginTop="60dp"
-            app:srcCompat="@drawable/syringe" />
-
-        <Button
-            android:id="@+id/vaccinationbutton"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
-            android:layout_marginEnd="50dp"
-            android:text="Vaccination record"
-            android:background="@drawable/round_corner"/>
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".MainActivity"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
 
-        <ImageView
-            android:id="@+id/planicon"
-            android:layout_width="302dp"
-            android:layout_height="67dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="55dp"
-            app:srcCompat="@drawable/plan" />
+            <ImageView
+                android:id="@+id/portfolio_icon"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@drawable/login_off"/>
 
-        <Button
-            android:id="@+id/myplanbutton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
-            android:layout_marginEnd="50dp"
-            android:text="My plan"
-            android:background="@drawable/round_corner"/>
+            <ImageView
+                android:id="@+id/vaccination_icon"
+                android:layout_width="180dp"
+                android:layout_height="95dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/syringe" />
+            <Button
+                android:id="@+id/vaccinationbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65dp"
+                android:layout_marginEnd="50dp"
+                android:text="Vaccination record"
+                android:background="@drawable/round_corner"/>
+            <ImageView
+                android:id="@+id/planicon"
+                android:layout_width="302dp"
+                android:layout_height="67dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="55dp"
+                app:srcCompat="@drawable/plan" />
+            <Button
+                android:id="@+id/myplanbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65dp"
+                android:layout_marginEnd="50dp"
+                android:text="My plan"
+                android:background="@drawable/round_corner"/>
+        </LinearLayout>
 
-
-    </LinearLayout>
-
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
