@@ -27,7 +27,7 @@
         <ImageView
             android:id="@+id/imageView13"
             android:layout_width="match_parent"
-            android:layout_height="564dp"
+            android:layout_height="542dp"
             android:layout_marginTop="10dp"
             app:srcCompat="@drawable/day2" />
 
