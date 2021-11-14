@@ -3,4 +3,5 @@
     <string name="title_home">Home</string>
     <string name="title_myplan">New plan</string>
     <string name="title_login">Login</string>
+    <string name="warning">You have chosen HKIA as your destination, where a confirmed case was discovered in Ocean Park Hong Kong two days ago.Hence, Ocean Park Hong Kong will be removed from our travel planner"</string>
 </resources>

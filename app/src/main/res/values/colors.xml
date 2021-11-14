@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="light_white">#D2D2D2</color>
     <color name="cathay_green">#00645A</color>
+    <color name="red">#FF0000</color>
 </resources>
